@@ -1,0 +1,12 @@
+﻿# CUDA build from official PyTorch wheel index (Windows/Linux)
+# Recommended Python: 3.10-3.12
+--index-url https://download.pytorch.org/whl/cu124
+--extra-index-url https://pypi.org/simple
+
+torch==2.10.0
+torchvision==0.25.0
+torchaudio==2.10.0
+
+pillow>=10.0
+numpy>=1.26
+matplotlib>=3.8
