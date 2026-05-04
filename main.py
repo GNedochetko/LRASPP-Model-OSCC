@@ -21,10 +21,10 @@ TRAIN_KWARGS = dict(
 
 
 def main():
-    print("Iniciando treinamento do modelo...")
-    model = train_model(**TRAIN_KWARGS)
-    torch.save(model.state_dict(), MODEL_PATH)
-    print(f"Modelo salvo em '{MODEL_PATH}'")
+    #print("Iniciando treinamento do modelo...")
+    #model = train_model(**TRAIN_KWARGS)
+    #torch.save(model.state_dict(), MODEL_PATH)
+    #print(f"Modelo salvo em '{MODEL_PATH}'")
 
     print("\nIniciando teste do modelo...")
     test_model(

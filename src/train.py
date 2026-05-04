@@ -14,7 +14,7 @@ def train_model(
     epochs=100,
     lr=0.0003,
     weight_decay=1e-05,
-    pretrained=True,
+    pretrained=False,
     aux_loss=True,
     aux_weight=0.4,
     device="cuda",
